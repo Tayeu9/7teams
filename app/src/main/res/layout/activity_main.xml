@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#D9D9D9"
+    tools:context=".MainActivity">
+    <!--- Phim back -->
+    <RelativeLayout
+        android:id="@+id/back_white_"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/back">
+
+    </RelativeLayout>
+    <!-- Text -->
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="265dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Categories"
+
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <!-- Nav -->
+    <LinearLayout
+        android:id="@+id/categories2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:background="#FFFFFF"
+        android:clipToOutline="true">
+        <RelativeLayout
+            android:id="@+id/group_5"
+            android:layout_width="100dp"
+            android:background="@drawable/nav"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Rice" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/group_6"
+            android:layout_width="100dp"
+            android:background="@drawable/nav2"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28.48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/ham"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamburger"
+                android:textColor="#FDB222"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/group_7"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/nav2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28.48dp"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/chic"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken"
+                android:textColor="#FDB222"/>
+        </RelativeLayout>
+    </LinearLayout>
+<!-- main -->
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:layout_above="@+id/navigation"
+        android:layout_below="@+id/categories2"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFFFF">
+        <!-- thuc an 1 -->
+        <RelativeLayout
+            android:id="@+id/ta1"
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/monan">
+
+            <ImageView
+
+                android:id="@+id/anh1"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                tools:srcCompat="@drawable/product_1_1">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/dong1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anh1"
+                android:layout_marginLeft="5dp"
+                android:text="Lorem ipsum"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong1"
+                android:layout_marginLeft="5dp"
+                android:text="It is a established..."
+                android:textColor="#939393"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/dong1.3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="100,000 VND"
+                android:textColor="#FDB222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/them"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textColor="@color/white"
+                    android:textSize="25dp">
+
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- thuc an 2 -->
+        <RelativeLayout
+            android:id="@+id/ta2"
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/ta1"
+            android:background="@drawable/monan"
+            tools:ignore="DuplicateIds">
+
+            <ImageView
+                android:id="@id/anh2"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                tools:srcCompat="@drawable/product_1_1">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/dong1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anh2"
+                android:layout_marginLeft="5dp"
+                android:text="Lorem ipsum"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong1"
+                android:layout_marginLeft="5dp"
+                android:text="It is a established..."
+                android:textColor="#939393"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="100,000 VND"
+                android:textColor="#FDB222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/them"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textColor="@color/white"
+                    android:textSize="25dp">
+
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- thuc an 3 -->
+        <RelativeLayout
+            android:id="@+id/ta3"
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/ta1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/monan"
+            tools:ignore="DuplicateIds">
+
+            <ImageView
+                android:id="@id/anh3"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+
+                tools:srcCompat="@drawable/product_1_1">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/dong1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anh3"
+                android:layout_marginLeft="5dp"
+                android:text="Lorem ipsum"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong1"
+                android:layout_marginLeft="5dp"
+                android:text="It is a established..."
+                android:textColor="#939393"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="100,000 VND"
+                android:textColor="#FDB222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/them"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textColor="@color/white"
+                    android:textSize="25dp">
+
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- thuc an 4 -->
+        <RelativeLayout
+            android:id="@+id/ta4"
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/ta2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_toEndOf="@id/ta3"
+            android:background="@drawable/monan">
+
+            <ImageView
+                android:id="@+id/anh4"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                tools:srcCompat="@drawable/product_1_1"></ImageView>
+
+            <TextView
+                android:id="@+id/dong1.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anh4"
+                android:layout_marginLeft="5dp"
+                android:text="Lorem ipsum"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong2.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong1.1"
+                android:layout_marginLeft="5dp"
+                android:text="It is a established..."
+                android:textColor="#939393"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dong3.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dong2.1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="100,000 VND"
+                android:textColor="#FDB222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/them"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textColor="@color/white"
+                    android:textSize="25dp">
+
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- end thuc an -->
+    </RelativeLayout>
+<!--- thanh cong cu -->
+    <LinearLayout
+        android:layout_margin="0dp"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="58.12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/thanhcc">
+<!-- home -->
+        <RelativeLayout
+            android:id="@+id/home"
+            android:layout_width="135dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                tools:srcCompat="@drawable/vector"></ImageView>
+            <TextView
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="39dp"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+<!-- cart -->
+        <RelativeLayout
+            android:id="@+id/home2"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/home1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="47dp"
+                tools:srcCompat="@drawable/cartdr"></ImageView>
+            <TextView
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="63dp"
+                android:layout_marginTop="36dp"
+                android:text="Cart"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+<!-- profile -->
+        <RelativeLayout
+            android:id="@+id/home3"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/home2">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                tools:srcCompat="@drawable/profiledr"></ImageView>
+            <TextView
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="37dp"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+        <!-- end profile -->
+    </LinearLayout>
+<!-- end thanh cong cu -->
+</RelativeLayout>
