@@ -1,4 +1,7 @@
+package com.example.a7teams;
+
 public class Food {
+    public  static  final  int  Rice=1  , Ham=2, Chicken=3;
     private int image;
     private String name;
     private String docta;
