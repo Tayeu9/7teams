@@ -1,0 +1,40 @@
+{
+ "loli": [
+  
+  {
+    "name":"Hoai Trinh",
+    "age":"21",
+    "sex":"Nu",
+    "interests":"Food",
+    "img":"https://inkythuatso.com/uploads/thumbnails/800/2022/03/hinh-anh-anime-cute-30-14-46-19.jpg"
+  },
+  {
+    "name":"Tieu Tieu",
+    "age":"21",
+    "sex":"Nu",
+    "interests":"Run",
+    "img":"https://inkythuatso.com/uploads/thumbnails/800/2022/03/hinh-anh-dai-dien-avt-anime-1-30-14-46-49.jpg"
+  },
+  {
+    "name":"Thuy Trang",
+    "age":"21",
+    "sex":"Nu",
+    "interests":"Food",
+    "img":"https://inkythuatso.com/uploads/thumbnails/800/2022/03/anh-3d-anime-girl-ca-tinh-033448756-30-14-48-01.jpg"
+  },
+  {
+    "name":"Lam Hoang",
+    "age":"21",
+    "sex":"Nu",
+    "interests":"Food",
+    "img":"https://inkythuatso.com/uploads/thumbnails/800/2022/03/anh-anime-nu-toc-trang-ngau-043845747-30-14-40-36.jpg"
+  },
+  {
+    "name":"Tran To",
+    "age":"21",
+    "sex":"Nu",
+    "interests":"Food",
+    "img":"https://inkythuatso.com/uploads/thumbnails/800/2022/03/hinh-anh-anime-nu-lanh-lung-doi-mat-mau-do-30-14-54-37.jpg"
+  }
+  ]
+}
